@@ -1,0 +1,20 @@
+{
+  "name": "pm2-telegram-logger",
+  "version": "1.0.1",
+  "description": "pm2 telegram logger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gregory Fedorov",
+  "license": "ISC",
+  "config": {
+    "bot_token": "2323",
+    "group_id": ""
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.9",
+    "pm2": "^5.3.0",
+    "pmx": "^1.6.7"
+  }
+}
