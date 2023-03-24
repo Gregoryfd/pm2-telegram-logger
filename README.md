@@ -2,9 +2,9 @@
 
 ### Установка и запуск
 ```
+pm2 install Gregoryfd/pm2-telegram-logger
 pm2 set pm2-telegram-logger:bot_token <YOUR BOT TOKEN> 
 pm2 set pm2-telegram-logger:group_id <YOUR CHAT ID (only numbers)> 
-pm2 install .
 ```
 
 
